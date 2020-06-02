@@ -1,0 +1,15 @@
+
+
+I’ve been discussing with Nathan the structure of the model population and the corresponding parameters that we require. The commissioning brief said we have to consider BCG status so we’ll need to look at the data to determine what difference BCG status makes. There are a couple of analyses of PREDICT and E-DETECT-TB that we need to inform the design of the model.
+
+(1) From PREDICT: Progression rates: is BCG status associated with differences in progression rates among IGRA+ and IGRA- patients?
+•Please split into migrants screened for LTBI and contacts of active TB cases. Should contacts be subdivided into UK-born contacts and contacts who are migrants?
+•We are planning to divide the population into Black African, South Asian, and White social/ethnic groups, so it would be good to test if there are any differences between these groups. (This means Black Caribbean is excluded but I don’t think there is much migration flow from the Caribbean and I don’t think the Caribbean is covered by either pre-entry active TB screening or LTBI screening post-arrival, is it? In PREDICT almost all Black Caribbeans were enrolled as contacts rather than migrants.)
+•Should this be for HIV-negatives, or everyone? There are too-few HIV-positives to do a comparison of HIV-negatives vs HIV-positives. The commissioning brief said we should consider HIV status. I’m hoping that there will be insufficient data to justify modelling HIV-positives separately (i.e. I hope we can either model HIV-negatives or model people irrespective of HIV status) because I think that at a population level HIV will not have an effect big enough to justify the hassle it will cause if the model has to be stratified. (I know HIV/TB is one of Marc's interests but modelling the multiple states of HIV infection and treatment in combination with multiple states of TB is a huge amount of work and will make the model a lot slower than it otherwise would be.)
+
+(2) From E-DETECT-TB: What is the prevalence of BCG vaccination by age, sex and country of origin?
+•As mentioned above, we are planning to divide the population into Black African, South Asian, and White ethnicity, so we need values for those groups.
+
+Best wishes
+Peter
+
